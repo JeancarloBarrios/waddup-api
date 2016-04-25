@@ -20,4 +20,22 @@ var routes = Routes{
 		"/",
 		Index,
 	},
+	Route{
+		"Users",
+		"GET",
+		"/users",
+		UserEnd,
+	},
+	Route{
+		"Events",
+		"GET",
+		"/events",
+		EventEnd,
+	},
+	Route{
+		"Events",
+		"POST",
+		"/events",
+		EventEnd,
+	},
 }
